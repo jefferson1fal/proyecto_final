@@ -1,0 +1,224 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage"
+             BackgroundColor="#212A3E">
+
+    <ScrollView>
+        <VerticalStackLayout   
+            Spacing="15"
+            Padding="20"
+            VerticalOptions="Center">
+            <Label 
+                Text="CARRUZEL LA FAMILIA ES LO PRIMERO "
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="26"
+                HorizontalOptions="Center" />
+            <Image
+                Source="sedan.html"
+                HeightRequest="500"
+                WidthRequest="500"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label 
+                Text="Selecciona una de las siguientes opciones"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="16"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn"
+                Text="Sedan"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+            <Label x:Name="sedanLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="DarkGreen"
+                   TextColor="White"/>
+
+            <Button
+                x:Name="CounterBtn6"           
+                Text="bocinar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickeda"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn7"
+                Text="encender"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickeda1"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn8"
+                Text="apagar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickeda2"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn9"
+                Text="acelelrar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickeda3"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn10"
+                Text="franar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickeda4"
+                HorizontalOptions="Center" />
+            <Image
+                Source="corolla.html"
+                HeightRequest="500"
+                WidthRequest="500"
+                HorizontalOptions="CenterAndExpand"/>
+            <Button
+                x:Name="CounterBtn1"
+                Text="PickUp"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked1"
+                HorizontalOptions="Center" />
+            <Label x:Name="pickUpLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="DarkGreen"
+                   TextColor="White"/>
+            <Button
+                x:Name="CounterBtnp"           
+                Text="bocinar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedp"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnp1"           
+                Text="encender"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedp1"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnp2"           
+                Text="apagar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedp2"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnp3"           
+                Text="acelerar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedp3"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnp4"           
+                Text="frenar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedp4"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnp5"           
+                Text="cargar la bateria"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedp5"
+                HorizontalOptions="Center" />
+            <Image
+                Source="ford.html"
+                HeightRequest="500"
+                WidthRequest="500"
+                HorizontalOptions="CenterAndExpand"/>
+            <Button
+                x:Name="CounterBtn2"
+                Text="Camioneta"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked2"
+                HorizontalOptions="Center" />
+            <Label x:Name="suvLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="DarkGreen"
+                   TextColor="White"/>
+            <Button
+                x:Name="CounterBtnc"           
+                Text="bocinar o pitar  v:"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedc"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnc1"           
+                Text="encender"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedc1"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnc2"           
+                Text="apagar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedc2"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnc3"           
+                Text="acelerar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedc3"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnc4"           
+                Text="frenar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedc4"
+                HorizontalOptions="Center" />
+            <Image
+                Source="jeep.html"
+                HeightRequest="500"
+                WidthRequest="500"
+                HorizontalOptions="CenterAndExpand"/>
+            <Button
+                x:Name="CounterBtn3"
+                Text="4X4"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked3"
+                HorizontalOptions="Center" />
+            <Label x:Name="cuatroPorCuatroLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="DarkGreen"
+                   TextColor="White"/>
+            <Button
+                x:Name="CounterBtnk1"
+                Text="bocina"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedk1"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnk2"
+                Text="encender"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedk2"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnk3"
+                Text="apagar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedk3"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnk4"
+                Text="acelerar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedk4"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnk5"
+                Text="frenar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedk5"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtnk6"
+                Text="activar 4x4"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClickedk6"
+                HorizontalOptions="Center" />
+            <Image
+                Source="rover.html"
+                HeightRequest="500"
+                WidthRequest="500"
+                HorizontalOptions="CenterAndExpand"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
